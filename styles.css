@@ -1,0 +1,93 @@
+body {
+    font-family: "Happy Monkey", sans-serif;
+    background: linear-gradient(#83C5BE, #E29578 );
+    color: #FFDDD2;
+    text-align: center;
+}
+
+#face {
+    /* clip-path: circle(); no border using this way*/
+    /* can also use border-radius: 50%; to make the image circular */
+    width: 150px;
+    border: 5px solid #E29578;
+    border-radius: 50%;
+}
+
+h1, h4, h2, h3, p {
+    text-shadow: 0 0 2px black;
+}
+
+#bday-age, #bday-day {
+    background: #E29578;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#bday-age {
+    margin: 5px 0 10px 0;
+}
+
+#bday-day {
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-img {
+    background-image: url("https://imgs.search.brave.com/-nA6jdsT0PhcXRPfM7omvPR-PPSE27Cq3u1sQsU3wOc/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/cHVibGljZG9tYWlu/cGljdHVyZXMubmV0/L3BpY3R1cmVzLzUw/MDAwL3ZlbGthL2Nh/dC0xMzcxMDQ3Njcy/OWtnLmpwZw");
+    background-size: cover;
+    background-position: center;
+    max-width: 500px;
+    height: 400px;
+    margin: 10px auto;
+    border: #FFDDD2 solid 5px;
+    border-radius: 10px;
+}
+
+#gif-img-happy:hover{
+    background-image: url("https://imgs.search.brave.com/nkRwggmMphdS-btY3BnSnIIfXKWCVmzTeqtSFkJGsgs/rs:fit:480:256:1/g:ce/aHR0cHM6Ly9tZWRp/YS5naXBoeS5jb20v/bWVkaWEvSHA0bHBP/VDFOczYwby9naXBo/eS5naWY.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#gif-img-sleepy:hover{
+    background-image: url("https://media.giphy.com/media/pGU7k489QGCQ0/giphy.gif");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#gif-img-first:hover{
+    background-image: url("https://imgs.search.brave.com/F1zfj08rgCx2XuIoMPc0HsIUSrl9QUbBICoBRvS37Zo/rs:fit:480:480:1/g:ce/aHR0cDovL2ltZzIu/d2lraWEubm9jb29r/aWUubmV0L19fY2Iy/MDEzMDcxNDIyNDAy/OC93aGF0ZXZlci15/b3Utd2FudC9pbWFn/ZXMvdGh1bWIvNi82/NS9JdHNfc29fZmx1/ZmZ5LmdpZi80ODBw/eC1JdHNfc29fZmx1/ZmZ5LmdpZg.gif");
+    background-position: center;
+    background-size: cover;
+
+}
+
+#gif-img-treats:hover{
+    background-image: url("https://imgs.search.brave.com/Yyo3MblGv4cOqbPj6RMrdgK1y4ISS5UyJDJbAiZ1w2o/rs:fit:320:240:1/g:ce/aHR0cHM6Ly9tZWRp/YTEudGVub3IuY29t/L2ltYWdlcy8yYTky/NjlmMDQ3M2I1Y2M1/YTI1Y2FkZGYxNmVh/NjE4ZS90ZW5vci5n/aWY_aXRlbWlkPTQ4/NDkwNDM.gif");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#gif-img-home:hover{
+    background-image: url("https://imgs.search.brave.com/7kri4BuHxSmKIcJC4GL-x4AhjG949D_pftNwbOQ7sxM/rs:fit:498:280:1/g:ce/aHR0cHM6Ly9tZWRp/YS50ZW5vci5jby9p/bWFnZXMvNzRhMjA1/ODk5OTE1NWFlZWY3/MzA3MzkwMjAzYTNi/YTcvcmF3");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #FFDDD2;
+}
